@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siphoro Thendo - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #333;
+      color: #fff;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Siphoro Thendo</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>
+      WELCOME TO MY PORTFOLIO. <br/>
+      Transforming ideas into digital realities, one line of code at a time.
+    </p>
+    <img src="MyPic.jpg.jpg" alt="Thendo Picture" class="home-image" />
+
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Siphoro Thendo, passionate about programming and very interested in technology and data. I aspire to become a data scientist, with a particular interest in data architecture, system design, and modeling.<br />
+      I'm currently studying BSc in Computer Science at the University of Venda, in my second year.<br />
+      My goal during my degree is to gain advanced programming skills, master different programming languages, and understand computer systems—including computer architecture—as I pursue a career in data architecture and modeling, with plans to explore specialization in these areas.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Class Marks Project</h3>
+      <p>
+        A program where the user enters their score in a specific module, and the program calculates the percentage and provides feedback on the result. Tools used: NetBeans and Java Programming Book (9th edition).
+      </p>
+      <a href="https://github.com/MyUniven/class-quiz-24047995.git">Code on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Tic-Tac-Toe Game</h3>
+      <p>
+        A two-player Tic-Tac-Toe game. Tools used: NetBeans and Java Programming Book (9th edition).
+      </p>
+      <a href="https://github.com/MyUniven/class-quiz-2-24047995.git">Code on GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:24047995@mvula.univen.ac.za">24047995@mvula.univen.ac.za</a></p>
+    <p>GitHub: <a href="https://github.com/24047995">https://github.com/24047995</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Siphoro Thendo</p>
+  </footer>
+</body>
+</html>
